@@ -67,9 +67,16 @@ function App() {
     <div className="min-h-screen bg-black text-white font-mono overflow-hidden">
       {/* Header */}
       <header className="relative z-10 flex justify-between items-center p-6 lg:p-8 border-b border-gray-800">
-        <div className="text-xl font-bold tracking-wider">
-          <span className="text-white">VAI.AI</span>
-          <span className="text-gray-500 ml-2">[SYSTEMS]</span>
+        <div className="flex items-center">
+          <img 
+            src="/assets/pablo.png" 
+            alt="Pablo AI" 
+            className="w-10 h-10 mr-3 rounded-full"
+          />
+          <div className="text-xl font-bold tracking-wider">
+            <span className="text-white">PABLO.AI</span>
+            <span className="text-gray-500 ml-2">[SYSTEMS]</span>
+          </div>
         </div>
         <button 
           onClick={() => setShowBookingForm(true)}
@@ -245,7 +252,7 @@ function App() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 font-medium">
             <div className="mb-4 md:mb-0">
-              VAI.AI [C] 2025. ALL_RIGHTS_RESERVED. AI_AUTOMATION_SPECIALISTS.
+              PABLO.AI [C] 2025. ALL_RIGHTS_RESERVED. AI_AUTOMATION_SPECIALISTS.
             </div>
             <div>
               POWERED_BY_NEXT_GEN_AI_TECHNOLOGY
