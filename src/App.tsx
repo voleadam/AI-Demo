@@ -69,7 +69,7 @@ function App() {
       <header className="relative z-10 flex justify-between items-center p-6 lg:p-8 border-b border-gray-800">
         <div className="flex items-center">
           <img 
-            src="assets/pablo.png" 
+            src="https://github.com/voleadam/AI-Demo/blob/01d82cfc60f20d6a902af800e90168b981e4ba27/assets/pablo.png" 
             alt="Pablo AI" 
             className="w-10 h-10 mr-3 rounded-full"
           />
